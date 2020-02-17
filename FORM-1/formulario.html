@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+    <head>
+        <meta charset="utf-8">
+        <title>FORM-1</title>
+        <style>
+            input {
+                margin: 2px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Formulario</h1>
+        <form action="index.php" method="POST">
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email">
+            </div>
+            <div>
+                <label for="pass">Contraseña:</label>
+                <input type="password" name="pass">
+            </div>
+            <div>
+                <label for="confirm">Confirmar Contraseña:</label>
+                <input type="password" name="confirm">
+            </div>
+            <div>
+                <input type="submit">
+            </div>
+        </form>
+    </body>
+</html>
